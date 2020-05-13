@@ -1,0 +1,213 @@
+
+a{
+	
+}
+a:hover{
+	color: purple;
+}
+div{
+	color:#19FBFF;
+	display: inline-block;
+	
+}
+p{
+	color:white;
+}
+p img{
+	vertical-align: middle;
+}
+table{
+	width:70%;
+	border-collapse: collapse;
+	border: 1px solid red;
+	
+}
+td, tr{
+	padding: 3px 5px;
+	color: yellow;
+	
+	
+}
+.tabl1{
+	background: rgba(99, 10, 10, 0.7);
+	color: white;
+}
+
+tbody tr:nth-child(odd){
+background: rgba(35, 52, 184, 0.8);
+}
+
+caption{
+	text-align: left;
+	color: white;
+}
+#d3{
+	background: black;
+	color: purple;
+	padding: 2px;
+}
+img:hover{
+	outline: 1px solid white;
+}
+.round{
+	border-radius:50%;
+}
+.round2{
+	width: 200px; height: 200px;
+	border-radius: 50%;
+	border: 0.5px solid transparent;
+	background: url(../img/Snapchat1.jpg)  no-repeat  0;
+	background-size: 200px, auto;
+}
+.round2:hover{
+	border: 0.5px solid red;
+}
+.round3{
+	width: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	
+}
+.round3:hover{
+	outline:none;
+	border: 1px solid red;
+}
+ul{
+	
+	font-size: 14pt;
+	color: green;
+	}
+.block{
+	display: inline-block;
+	color: white;
+}
+#d2{
+	text-decoration: none;
+	border-bottom: 3px dashed red;
+	color:red;
+	font-size: 150%
+}
+#d2:hover{
+	color: purple;
+}
+#d1{
+	color:lime;
+	text-decoration: none;
+}
+#d1:hover{
+	color: purple;
+	background: #f73;
+	padding: 1px;
+	border: 1px solid red;
+}
+#simg{
+	color:red;
+	font-size: 150%
+}
+#simg:hover{
+	color: purple;
+}
+
+#ar {
+	font-family: arial;
+	color: red;
+	font-size: 14pt;
+	font-style: oblique;
+}
+#off_block{
+	display: inline;
+}
+#tolst{
+	display: inline;
+}
+.pop{
+	background: transparent;
+	margin: 0 10px 10px 0;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+}
+.pop po1{
+	display: inline;
+	text-align: center;
+	margin: 0;
+}
+.popfig{
+	float: left;
+	margin: 0 10px 10px 0;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+	color:white;
+}
+.photo {
+    text-align: center; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+   }
+body{
+	background: url(../img/DSCN1979.jpg) no-repeat ;
+	background-size: cover ;
+	
+}
+
+.grad{
+	background: linear-gradient( 60deg, red, black 40%, white , transparent);
+	padding: 10px;
+	display: inline;
+}
+
+.grad2{
+	background: radial-gradient( circle farthest-corner at left bottom, white, black 40%, red);
+}
+input:target{
+	background: red;
+}
+.nsort{
+	list-style:none;
+	text-indent: -2em;
+}
+.nsort::before{
+	content: '\25ba';
+	padding-right: 2px;
+	color: white;
+}
+.hleb{
+	marning:0; padding:0;
+}
+.hleb li{
+	display: inline-block;
+}
+.hleb li::before{
+	content:'|';
+	marming-left: 5px;
+	marming-right: 5px;
+	color: white;
+}
+.hleb li:first-child::before{
+	content: '';
+}
+#bez_{
+	text-decoration: none;
+}
+.meny{
+	background: linear-gradient(to bottom, red, black 40%, transparent, white);
+	border: 1px solid #999;
+	padding: 0 5px;
+	font: 14px Arial, sans-serif;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.meny li {
+	display: inline-block;
+	border-right: 1px solid black;
+}
+.meny a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 10px 15px;
+}
+.meny a:hover{
+	color: green;
+}
